@@ -9,4 +9,4 @@ function gatsbyBrowser() {
   )
 }
 
-export default gatsby-browser
+export default gatsbyBrowser
