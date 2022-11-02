@@ -14,7 +14,10 @@
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
   },
   "dependencies": {
+    "@headlessui/react": "^1.7.3",
+    "@heroicons/react": "^2.0.13",
     "gatsby": "^4.24.6",
+    "heroicons": "^2.0.13",
     "react": "^18.1.0",
     "react-dom": "^18.1.0"
   },

@@ -1,9 +1,19 @@
-import React from "react"
+import React from 'react'
 
-export default function Home() {
+import Layout from '../components/Layout'
+import Features from '../components/Features'
+import Pricing from '../components/Pricing'
+import Faq from '../components/Faq'
+
+export default function App() {
   return (
     <div>
-      <h1 className="text-3xl font-bold underline">Hello world!</h1>
+      <Layout>
+        <Features />
+        <Pricing />
+        <Faq />
+      </Layout>
     </div>
   )
 }
+
